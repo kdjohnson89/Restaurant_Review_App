@@ -1,5 +1,7 @@
 # Restaurant Review App
 
+Web application for viewing restaurants and their reviews, location, and address.
+
 ## Link to website
 
 https://kdjohnson89.github.io/Restaurant_Review_App/
