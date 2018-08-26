@@ -3,6 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Restaurant details page">
   <!-- Normalize.css for better cross-browser consistency -->
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <!-- Main CSS file -->
@@ -41,9 +42,9 @@
   </section>
   <!-- End map -->
   <section id="restaurant-address-hours">
-      <p id="restaurant-address" tabindex="3" aria-label="Restaurant address is 171 E Broadway, New York, NY 10002"></p>
-    <div class="restaurant-hours-flex" tabindex="4">
-      <table id="restaurant-hours" aria-label="Restaurant hours"></table>
+      <p id="restaurant-address"></p>
+    <div class="restaurant-hours-flex">
+      <table id="restaurant-hours"></table>
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
@@ -65,11 +66,17 @@
   <script type="text/javascript" src="js/dbhelper.js"></script>
   <!-- Main javascript file -->
   <script type="text/javascript" src="js/restaurant_info.js"></script>
-  <script type="application/javascript" charset="utf-8" src="js/service-worker.js"></script>
+  <script type="application/javascript" charset="utf-8" src="/service-worker.js"></script>
   <!-- Google Maps -->
  <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_tKbW6A5pQ-eupxI56myUnHLqYCzOjKo&libraries=places&callback=initMap"></script> -->
   <!-- End scripts -->
-
+	<script>
+		if('serviceWorker' in navigator) {
+			navigator.serviceWorker
+			.register('/service-worker.js')
+			.then(function() { console.log("Service Worker Registered"); });
+		}
+	</script>
 </body>
 
 </html>
