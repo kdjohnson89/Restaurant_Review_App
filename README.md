@@ -8,8 +8,8 @@ https://kdjohnson89.github.io/Restaurant_Review_App/
 
 Option A: Click link above to view website
 Option B: 1. Download from Github by selecting the "Clone or download" button and selecting "Download ZIP".
-				 2. Navigate to the extracted files on your computer.
-				 3. Double-click the index.html file to open in your default browser.
+	  2. Navigate to the extracted files on your computer.
+          3. Double-click the index.html file to open in your default browser.
 
 ## References
 
