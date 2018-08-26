@@ -10,8 +10,7 @@ https://kdjohnson89.github.io/Restaurant_Review_App/
 
 1. Download from Github by selecting the "Clone or download" button and selecting "Download ZIP"
 2. Navigate to the project folder in your terminal
-3. Run 'npm install' to install project dependencies
-4. Run 'gulp serve'
+3. Run 'python -m SimpleHTTPServer 8000'
 5. With the server running, visit http://localhost:8000 to open website
 
 ## References
