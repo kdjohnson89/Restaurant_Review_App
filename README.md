@@ -1,4 +1,4 @@
-# Restaurant Review App
+# Restaurant Review App *STILL IN PROGRESS*
 
 Web application for viewing restaurants and their reviews, location, and address.
 
